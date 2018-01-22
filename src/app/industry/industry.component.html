@@ -3,21 +3,24 @@
         <br><br>
 <!--img src="assets/images/BrinovaSDS.jpg" class="img-responsive" width=1400 px height=150 px-->
 <br>
-<h3 style=color:red>Every job I took was really me getting paid to learn about a new industry....</h3><br>
-    <h4 style="color:red"> Banking and Finance</h4><br>
-    <h5> Payroll Processing </h5>
-    <h5> Payables and Receivables</h5>
-    <h5> Core Systems Integration</h5>
-    <h5> Investments Management</h5>
-    <h5> Vouchers and Advices</h5><br>
-
-    <h4 style="color:red"> Manufacturing</h4><br>
-    <h5> Inventory Tracking</h5>
-    <h5> Work Orders processing</h5>
-    <h5> Job work Management</h5>
-    <h5> Labelling and Bar-coding</h5>
-    <h5> Outsource and In-house Management</h5>
-    <h5> Quality and Compliance Management</h5>
-    <h5> Bill Of Materials</h5>
+<h2 style=color:red>Every job I took was really getting paid to learn about a new industry....</h2><br>
+   <div class="row">
+    <div class="col-lg-4">
+      <h4 style="color:red"> Banking and Finance</h4>
+              <ul class="list-group">
+          <li class="list-group-item d-flex justify-content-between align-items-center" *ngFor="let i of BfList1">
+              {{i}} 
+          </li>
+          </ul>
+    </div>
+  <div class="col-lg-4">
+    <h4 style="color:red"> Manufacturing</h4>
+    <ul class="list-group">
+        <li class="list-group-item d-flex justify-content-between align-items-center" *ngFor="let i of BfList2">
+            {{i}} 
+        </li>
+        </ul>
+    </div>
    </div>
+</div>
 </div>

@@ -72,11 +72,10 @@ li.dropdown:hover > .dropdown-menu {
     background-color: #292c2f;
     box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
     box-sizing: border-box;
-   
     text-align: left;
     font: bold 16px sans-serif;
     padding: 5px;
-    margin-top: 80px;
+    margin-top: 8px;
 }
 
 
