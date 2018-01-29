@@ -11,5 +11,8 @@ export class TechPracticeComponent implements OnInit {
 
   ngOnInit() {
   }
+  private BfList5=["Open Source","Unified Modeling Language","Service Oriented Architecture","Open Authentication",
+                  "Role Based Access Control","Model View Controller Architecture","Spring 4.0"];
 
+  
 }

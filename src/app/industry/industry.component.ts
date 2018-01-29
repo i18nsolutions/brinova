@@ -17,5 +17,7 @@ export class IndustryComponent implements OnInit {
 private BfList2 = ["Inventory Tracking"," Work Orders processing", 
                     "Outsource and In-house Management","Job work Management", 
                     "Labelling and Bar-coding", "Quality and Compliance Management", " Bill Of Materials"
-                  ]
+                  ];
+
+
 }
