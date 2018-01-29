@@ -11,10 +11,10 @@ export class HowWeExeComponent implements OnInit {
 
   ngOnInit() {
   }
-  private BfList3=["Recruit the Right Resources","Select the Right Development Process","Make Sound Estimations",
+  public BfList3=["Recruit the Right Resources","Select the Right Development Process","Make Sound Estimations",
                   "Define Smaller Milestones","Define Complete Requirements","Define System Architecture",
                   "Optimize Design"];
-  private BfList4=["Effective Code Implementation","Rigourous Testing and Validation",
+  public BfList4=["Effective Code Implementation","Rigourous Testing and Validation",
   "Documentation of Requirement and Design aspects","Iterative Reviews","Project Control Management",
   "Quality Control","User Acceptance and Deployment"];
 
