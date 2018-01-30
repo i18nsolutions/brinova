@@ -14,14 +14,6 @@ export class HomeComponent implements OnInit {
 
   ngOnInit(): void {
     const proxyurl = "https://cors-anywhere.herokuapp.com/";
-    const url = "http://localhost:8080/myemployee"; // site that doesn’t send Access-Control-*
-    fetch(url)
-    .then(response => response.text())
-    .then(contents => console.log( contents))
-    .catch(() => console.log("Can’t access " + url + " response. Blocked by browser?"))
-
-   
-    console.log(this.results);
   }
  
   
