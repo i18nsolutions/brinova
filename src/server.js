@@ -17,6 +17,6 @@ app.use(favicon(__dirname + './favicon.png'));
  
 // Add your routes here, etc. 
  
-const server = app.listen(3000, function(){
+const server = app.listen((process.env.PORT || 8080), function(){
     console.log('server is running at %s .', server.address().port);
 });
